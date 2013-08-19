@@ -1,0 +1,79 @@
+{
+ "issue": "1.2", 
+ "tracks": [
+  {
+   "animate-begin": "", 
+   "animate-clear": "no", 
+   "animate-end": "", 
+   "background-colour": "", 
+   "background-image": "", 
+   "duration": "5", 
+   "links": "", 
+   "message-colour": "white", 
+   "message-font": "Helvetica 30 bold", 
+   "message-justify": "left", 
+   "message-x": "", 
+   "message-y": "", 
+   "show-control-begin": "", 
+   "show-control-end": "", 
+   "text": "First track of Subshow", 
+   "title": "Subshow intro", 
+   "track-ref": "", 
+   "type": "message"
+  }, 
+  {
+   "animate-begin": "", 
+   "animate-clear": "no", 
+   "animate-end": "", 
+   "background-colour": "", 
+   "background-image": "", 
+   "duration": "5", 
+   "image-window": "", 
+   "links": "", 
+   "location": "+/media/mountain.jpg", 
+   "show-control-begin": "", 
+   "show-control-end": "", 
+   "title": "Mountain", 
+   "track-ref": "", 
+   "track-text": "In subshow", 
+   "track-text-colour": "white", 
+   "track-text-font": "arial 40 bold", 
+   "track-text-x": "100", 
+   "track-text-y": "100", 
+   "transition": "cut", 
+   "type": "image"
+  }, 
+  {
+   "animate-begin": "", 
+   "animate-clear": "no", 
+   "animate-end": "", 
+   "background-colour": "", 
+   "background-image": "", 
+   "duration": "5", 
+   "links": "", 
+   "message-colour": "red", 
+   "message-font": "Helvetica 25 bold", 
+   "message-justify": "left", 
+   "message-x": "", 
+   "message-y": "", 
+   "show-control-begin": "", 
+   "show-control-end": "", 
+   "text": "Last track of subshow", 
+   "title": "End subshow", 
+   "track-ref": "", 
+   "type": "message"
+  }, 
+  {
+   "sub-show": "menu", 
+   "title": "Child Show for sub show", 
+   "track-ref": "pp-child-show", 
+   "type": "show"
+  }, 
+  {
+   "location": "+/media/space.jpg", 
+   "title": "Menu Background", 
+   "track-ref": "pp-menu-background", 
+   "type": "menu-background"
+  }
+ ]
+}

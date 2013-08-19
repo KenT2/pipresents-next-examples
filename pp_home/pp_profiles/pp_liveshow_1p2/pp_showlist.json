@@ -1,0 +1,46 @@
+{
+ "issue": "1.2", 
+ "shows": [
+  {
+   "show-ref": "start", 
+   "start-show": "liveshow", 
+   "title": "Start", 
+   "type": "start"
+  }, 
+  {
+   "audio-speaker": "stereo", 
+   "background-colour": "", 
+   "background-image": "+/media/space.jpg", 
+   "controls": "", 
+   "disable-controls": "no", 
+   "duration": "5", 
+   "has-child": "no", 
+   "hint-colour": "white", 
+   "hint-font": "Helvetica 30 bold", 
+   "hint-text": "Press Return for Menu", 
+   "hint-y": "100", 
+   "image-window": "100 100 900 900", 
+   "medialist": "liveshow.json", 
+   "mplayer-audio": "hdmi", 
+   "mplayer-other-options": "", 
+   "mplayer-volume": "0", 
+   "omx-audio": "hdmi", 
+   "omx-other-options": "", 
+   "omx-volume": "0", 
+   "omx-window": "100 100 900 900", 
+   "show-ref": "liveshow", 
+   "show-text": "No need to prepare a show in advance\n\nJust drop video, audio or image files into\n\n/home/pi/pipresents/pp_home/pp_live_tracks", 
+   "show-text-colour": "white", 
+   "show-text-font": "arial 30 bold italic", 
+   "show-text-x": "1000", 
+   "show-text-y": "400", 
+   "title": "Liveshow", 
+   "transition": "cut", 
+   "trigger-end": "none", 
+   "trigger-end-time": "", 
+   "trigger-start": "start", 
+   "trigger-start-time": "", 
+   "type": "liveshow"
+  }
+ ]
+}

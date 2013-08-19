@@ -1,0 +1,45 @@
+{
+ "issue": "1.2", 
+ "tracks": [
+  {
+   "animate-begin": "", 
+   "animate-clear": "no", 
+   "animate-end": "", 
+   "background-colour": "", 
+   "background-image": "+/media/space.jpg", 
+   "duration": "5", 
+   "links": "", 
+   "message-colour": "white", 
+   "message-font": "Helvetica 25 bold", 
+   "message-justify": "left", 
+   "message-x": "", 
+   "message-y": "", 
+   "show-control-begin": "", 
+   "show-control-end": "", 
+   "text": "Pressing the Down Cursor will shutdown your PI\n\nPress CTRL-BREAK or the Close icon to escape", 
+   "title": "warn", 
+   "track-ref": "", 
+   "type": "message"
+  }, 
+  {
+   "animate-begin": "", 
+   "animate-clear": "no", 
+   "animate-end": "", 
+   "background-colour": "", 
+   "background-image": "+/media/river.jpg", 
+   "duration": "0", 
+   "links": "", 
+   "message-colour": "white", 
+   "message-font": "Helvetica 30 bold", 
+   "message-justify": "left", 
+   "message-x": "", 
+   "message-y": "", 
+   "show-control-begin": "pipresents shutdownnow", 
+   "show-control-end": "", 
+   "text": "Bye", 
+   "title": "Shutdown", 
+   "track-ref": "", 
+   "type": "message"
+  }
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "issue": "1.2", 
+ "tracks": [
+  {
+   "animate-begin": "", 
+   "animate-clear": "no", 
+   "animate-end": "", 
+   "background-colour": "", 
+   "background-image": "", 
+   "duration": "5", 
+   "links": "", 
+   "message-colour": "white", 
+   "message-font": "Helvetica 30 bold", 
+   "message-justify": "left", 
+   "message-x": "", 
+   "message-y": "", 
+   "show-control-begin": "", 
+   "show-control-end": "", 
+   "text": "P1-11 Off", 
+   "title": "Message", 
+   "track-ref": "", 
+   "type": "message"
+  }, 
+  {
+   "animate-begin": "out1 on", 
+   "animate-clear": "no", 
+   "animate-end": "out1 off", 
+   "background-colour": "", 
+   "background-image": "", 
+   "duration": "5", 
+   "image-window": "", 
+   "links": "", 
+   "location": "+/media/mountain.jpg", 
+   "show-control-begin": "", 
+   "show-control-end": "", 
+   "title": "Control animation", 
+   "track-ref": "", 
+   "track-text": "P1-11 On", 
+   "track-text-colour": "white", 
+   "track-text-font": "arial 40 bold", 
+   "track-text-x": "100", 
+   "track-text-y": "100", 
+   "transition": "cut", 
+   "type": "image"
+  }
+ ]
+}

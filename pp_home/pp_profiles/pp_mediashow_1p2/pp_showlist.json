@@ -1,0 +1,52 @@
+{
+ "issue": "1.2", 
+ "shows": [
+  {
+   "show-ref": "start", 
+   "start-show": "mymediashow", 
+   "title": "Start", 
+   "type": "start"
+  }, 
+  {
+   "audio-speaker": "stereo", 
+   "background-colour": "black", 
+   "background-image": "", 
+   "controls": "", 
+   "disable-controls": "no", 
+   "duration": "10", 
+   "has-child": "no", 
+   "hint-colour": "", 
+   "hint-font": "", 
+   "hint-text": "", 
+   "hint-y": "", 
+   "image-window": "200 200 900 900", 
+   "medialist": "media.json", 
+   "mplayer-audio": "hdmi", 
+   "mplayer-other-options": "", 
+   "mplayer-volume": "0", 
+   "next-input": "", 
+   "omx-audio": "hdmi", 
+   "omx-other-options": "-t 1", 
+   "omx-volume": "0", 
+   "omx-window": "200 200 900 900", 
+   "progress": "auto", 
+   "repeat": "interval", 
+   "repeat-interval": "240", 
+   "sequence": "ordered", 
+   "show-ref": "mymediashow", 
+   "show-text": "Pi Presents\nA multimedia toolkit for Museums, Visitor Centres\nand more......\n\n   http://pipresents.wordpress.com\n\nUse Up and Down Cursor to skip ", 
+   "show-text-colour": "green", 
+   "show-text-font": "arial 25 bold italic", 
+   "show-text-x": "1000", 
+   "show-text-y": "700", 
+   "title": "Mediashow", 
+   "transition": "cut", 
+   "trigger": "start", 
+   "trigger-end": "none", 
+   "trigger-end-time": "", 
+   "trigger-input": "", 
+   "trigger-next": "continue", 
+   "type": "mediashow"
+  }
+ ]
+}

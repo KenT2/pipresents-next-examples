@@ -1,0 +1,49 @@
+{
+ "issue": "1.2", 
+ "tracks": [
+  {
+   "animate-begin": "", 
+   "animate-clear": "no", 
+   "animate-end": "", 
+   "background-colour": "", 
+   "background-image": "", 
+   "duration": "5", 
+   "image-window": "", 
+   "links": "", 
+   "location": "+/media/mountain.jpg", 
+   "show-control-begin": "", 
+   "show-control-end": "", 
+   "title": "Mountain", 
+   "track-ref": "", 
+   "track-text": "", 
+   "track-text-colour": "", 
+   "track-text-font": "", 
+   "track-text-x": "0", 
+   "track-text-y": "0", 
+   "transition": "cut", 
+   "type": "image"
+  }, 
+  {
+   "animate-begin": "", 
+   "animate-clear": "no", 
+   "animate-end": "", 
+   "background-colour": "", 
+   "background-image": "", 
+   "duration": "", 
+   "image-window": "", 
+   "links": "", 
+   "location": "+/media/river.jpg", 
+   "show-control-begin": "", 
+   "show-control-end": "", 
+   "title": "River", 
+   "track-ref": "", 
+   "track-text": "", 
+   "track-text-colour": "", 
+   "track-text-font": "", 
+   "track-text-x": "0", 
+   "track-text-y": "0", 
+   "transition": "cut", 
+   "type": "image"
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "issue": "1.2", 
+ "tracks": [
+  {
+   "animate-begin": "", 
+   "animate-clear": "no", 
+   "animate-end": "", 
+   "audio-speaker": "", 
+   "background-colour": "", 
+   "background-image": "", 
+   "clear-screen": "no", 
+   "duration": "", 
+   "links": "", 
+   "location": "+/media/dragon.mp3", 
+   "mplayer-audio": "", 
+   "mplayer-other-options": "", 
+   "mplayer-volume": "", 
+   "show-control-begin": "", 
+   "show-control-end": "", 
+   "title": "music", 
+   "track-ref": "", 
+   "track-text": "", 
+   "track-text-colour": "", 
+   "track-text-font": "", 
+   "track-text-x": "0", 
+   "track-text-y": "0", 
+   "type": "audio"
+  }
+ ]
+}

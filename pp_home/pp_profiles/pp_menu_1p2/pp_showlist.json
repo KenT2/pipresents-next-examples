@@ -1,0 +1,49 @@
+{
+ "issue": "1.2", 
+ "shows": [
+  {
+   "show-ref": "start", 
+   "start-show": "mymenu", 
+   "title": "Start", 
+   "type": "start"
+  }, 
+  {
+   "audio-speaker": "stereo", 
+   "background-colour": "", 
+   "background-image": "+/media/space.jpg", 
+   "controls": "", 
+   "disable-controls": "no", 
+   "duration": "10", 
+   "entry-colour": "white", 
+   "entry-font": "Helvetica 35 bold", 
+   "entry-select-colour": "green", 
+   "has-background": "yes", 
+   "hint-colour": "black", 
+   "hint-font": "Helvetica 30 bold", 
+   "hint-text": "Select using Up or Down, then Return", 
+   "hint-y": "100", 
+   "image-window": "centred", 
+   "medialist": "media.json", 
+   "menu-spacing": "70", 
+   "menu-x": "300", 
+   "menu-y": "250", 
+   "mplayer-audio": "hdmi", 
+   "mplayer-other-options": "", 
+   "mplayer-volume": "0", 
+   "omx-audio": "hdmi", 
+   "omx-other-options": "", 
+   "omx-volume": "0", 
+   "omx-window": "centred", 
+   "show-ref": "mymenu", 
+   "show-text": "Press Escape to return", 
+   "show-text-colour": "black", 
+   "show-text-font": "arial 30 bold", 
+   "show-text-x": "800", 
+   "show-text-y": "900", 
+   "timeout": "0", 
+   "title": "Menu", 
+   "transition": "cut", 
+   "type": "menu"
+  }
+ ]
+}
