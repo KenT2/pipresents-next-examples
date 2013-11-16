@@ -15,7 +15,7 @@
    "disable-controls": "no", 
    "duration": "5", 
    "first-track-ref": "first", 
-   "image-window": "centred", 
+   "image-window": "original", 
    "links": "pp-key-1 play image+audio\nbut1 play image+audio\npp-key-2 play image\nbut2 play image\npp-key-3 play audio\nbut3 play audio\npp-key-4 play video\nbut4 play video\npp-key-5 play subshow\npp-key-6 play message", 
    "medialist": "page.json", 
    "mplayer-audio": "hdmi", 
@@ -24,9 +24,10 @@
    "omx-audio": "hdmi", 
    "omx-other-options": "", 
    "omx-volume": "0", 
-   "omx-window": "centred", 
+   "omx-window": "original", 
+   "show-canvas": "", 
    "show-ref": "radiobuttonshow", 
-   "show-text": "Press 1- 6 for another track, escape to stop\nButtons play 1-4", 
+   "show-text": "Press 1- 6 for another track, escape to stop\nGPIO Buttons play 1-4", 
    "show-text-colour": "white", 
    "show-text-font": "helvetica 25 bold", 
    "show-text-x": "900", 
@@ -34,7 +35,8 @@
    "timeout": "60", 
    "title": "Radiobuttonshow", 
    "transition": "cut", 
-   "type": "radiobuttonshow"
+   "type": "radiobuttonshow", 
+   "web-window": "warp"
   }, 
   {
    "audio-speaker": "stereo", 
@@ -47,8 +49,9 @@
    "hint-colour": "white", 
    "hint-font": "Helvetica 30 bold", 
    "hint-text": "", 
+   "hint-x": "200", 
    "hint-y": "100", 
-   "image-window": "centred", 
+   "image-window": "original", 
    "medialist": "music.json", 
    "mplayer-audio": "hdmi", 
    "mplayer-other-options": "", 
@@ -57,11 +60,12 @@
    "omx-audio": "hdmi", 
    "omx-other-options": "", 
    "omx-volume": "0", 
-   "omx-window": "centred", 
+   "omx-window": "original", 
    "progress": "auto", 
    "repeat": "single-run", 
    "repeat-interval": "0", 
    "sequence": "ordered", 
+   "show-canvas": "", 
    "show-ref": "music", 
    "show-text": "", 
    "show-text-colour": "", 
@@ -75,7 +79,8 @@
    "trigger-end-time": "", 
    "trigger-input": "", 
    "trigger-next": "continue", 
-   "type": "mediashow"
+   "type": "mediashow", 
+   "web-window": "warp"
   }, 
   {
    "audio-speaker": "stereo", 
@@ -88,8 +93,9 @@
    "hint-colour": "white", 
    "hint-font": "Helvetica 30 bold", 
    "hint-text": "", 
+   "hint-x": "200", 
    "hint-y": "100", 
-   "image-window": "centred", 
+   "image-window": "original", 
    "medialist": "subshow.json", 
    "mplayer-audio": "hdmi", 
    "mplayer-other-options": "", 
@@ -98,11 +104,12 @@
    "omx-audio": "hdmi", 
    "omx-other-options": "", 
    "omx-volume": "0", 
-   "omx-window": "centred", 
+   "omx-window": "original", 
    "progress": "auto", 
    "repeat": "interval", 
    "repeat-interval": "0", 
    "sequence": "ordered", 
+   "show-canvas": "", 
    "show-ref": "subshow", 
    "show-text": "Now running a show from a button\nType 1 - 6 to play a track, escape to stop", 
    "show-text-colour": "white", 
@@ -116,7 +123,8 @@
    "trigger-end-time": "", 
    "trigger-input": "", 
    "trigger-next": "continue", 
-   "type": "mediashow"
+   "type": "mediashow", 
+   "web-window": "warp"
   }
  ]
 }

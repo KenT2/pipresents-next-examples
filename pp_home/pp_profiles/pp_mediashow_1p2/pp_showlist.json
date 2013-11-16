@@ -18,8 +18,9 @@
    "hint-colour": "", 
    "hint-font": "", 
    "hint-text": "", 
+   "hint-x": "", 
    "hint-y": "", 
-   "image-window": "200 200 900 900", 
+   "image-window": "shrink 100 100 950 900", 
    "medialist": "media.json", 
    "mplayer-audio": "hdmi", 
    "mplayer-other-options": "", 
@@ -28,11 +29,12 @@
    "omx-audio": "hdmi", 
    "omx-other-options": "-t 1", 
    "omx-volume": "0", 
-   "omx-window": "200 200 900 900", 
+   "omx-window": "warp 100 100 950 900", 
    "progress": "auto", 
    "repeat": "interval", 
-   "repeat-interval": "240", 
+   "repeat-interval": "0", 
    "sequence": "ordered", 
+   "show-canvas": "", 
    "show-ref": "mymediashow", 
    "show-text": "Pi Presents\nA multimedia toolkit for Museums, Visitor Centres\nand more......\n\n   http://pipresents.wordpress.com\n\nUse Up and Down Cursor to skip ", 
    "show-text-colour": "green", 
@@ -46,7 +48,8 @@
    "trigger-end-time": "", 
    "trigger-input": "", 
    "trigger-next": "continue", 
-   "type": "mediashow"
+   "type": "mediashow", 
+   "web-window": "warp 100 100 930 900"
   }
  ]
 }

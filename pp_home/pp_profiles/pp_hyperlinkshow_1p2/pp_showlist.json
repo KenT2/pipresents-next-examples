@@ -16,7 +16,7 @@
    "duration": "5", 
    "first-track-ref": "intro", 
    "home-track-ref": "first", 
-   "image-window": "centred", 
+   "image-window": "original", 
    "links": "back return\nhome home", 
    "medialist": "page.json", 
    "mplayer-audio": "hdmi", 
@@ -25,7 +25,8 @@
    "omx-audio": "hdmi", 
    "omx-other-options": "", 
    "omx-volume": "0", 
-   "omx-window": "centred", 
+   "omx-window": "original", 
+   "show-canvas": "", 
    "show-ref": "hyperlinkshow", 
    "show-text": "", 
    "show-text-colour": "", 
@@ -36,7 +37,8 @@
    "timeout-track-ref": "timeout", 
    "title": "Hyperlinkshow", 
    "transition": "cut", 
-   "type": "hyperlinkshow"
+   "type": "hyperlinkshow", 
+   "web-window": "warp"
   }, 
   {
    "audio-speaker": "stereo", 
@@ -49,8 +51,9 @@
    "hint-colour": "white", 
    "hint-font": "Helvetica 30 bold", 
    "hint-text": "", 
+   "hint-x": "200", 
    "hint-y": "100", 
-   "image-window": "centred", 
+   "image-window": "original", 
    "medialist": "music.json", 
    "mplayer-audio": "hdmi", 
    "mplayer-other-options": "", 
@@ -59,11 +62,12 @@
    "omx-audio": "hdmi", 
    "omx-other-options": "", 
    "omx-volume": "0", 
-   "omx-window": "centred", 
+   "omx-window": "original", 
    "progress": "auto", 
    "repeat": "single-run", 
    "repeat-interval": "0", 
    "sequence": "ordered", 
+   "show-canvas": "", 
    "show-ref": "music", 
    "show-text": "", 
    "show-text-colour": "", 
@@ -77,7 +81,8 @@
    "trigger-end-time": "", 
    "trigger-input": "", 
    "trigger-next": "continue", 
-   "type": "mediashow"
+   "type": "mediashow", 
+   "web-window": "warp"
   }, 
   {
    "audio-speaker": "stereo", 
@@ -90,8 +95,9 @@
    "hint-colour": "white", 
    "hint-font": "Helvetica 30 bold", 
    "hint-text": "", 
+   "hint-x": "200", 
    "hint-y": "100", 
-   "image-window": "centred", 
+   "image-window": "original", 
    "medialist": "subshow.json", 
    "mplayer-audio": "hdmi", 
    "mplayer-other-options": "", 
@@ -100,11 +106,12 @@
    "omx-audio": "hdmi", 
    "omx-other-options": "", 
    "omx-volume": "0", 
-   "omx-window": "centred", 
+   "omx-window": "original", 
    "progress": "auto", 
    "repeat": "interval", 
    "repeat-interval": "0", 
    "sequence": "ordered", 
+   "show-canvas": "", 
    "show-ref": "subshow", 
    "show-text": "", 
    "show-text-colour": "", 
@@ -118,7 +125,8 @@
    "trigger-end-time": "", 
    "trigger-input": "", 
    "trigger-next": "continue", 
-   "type": "mediashow"
+   "type": "mediashow", 
+   "web-window": "warp"
   }
  ]
 }

@@ -18,8 +18,9 @@
    "hint-colour": "white", 
    "hint-font": "Helvetica 35 bold", 
    "hint-text": "", 
+   "hint-x": "200", 
    "hint-y": "100", 
-   "image-window": "100 300 900 700", 
+   "image-window": "shrink 100 300 900 700", 
    "medialist": "mediashow.json", 
    "mplayer-audio": "hdmi", 
    "mplayer-other-options": "", 
@@ -28,11 +29,12 @@
    "omx-audio": "hdmi", 
    "omx-other-options": "", 
    "omx-volume": "0", 
-   "omx-window": "100 300  900 700", 
+   "omx-window": "warp 100 300  900 700", 
    "progress": "auto", 
    "repeat": "interval", 
    "repeat-interval": "0", 
    "sequence": "ordered", 
+   "show-canvas": "", 
    "show-ref": "display", 
    "show-text": "The audio stops to allow the video sound to be heard.\n\nHow:\nThe audio is played by a concurrent show.\n\nThe audio show is started by the Start Show,\n\nstopped at the end of the Mountain track,\n\nand re-started at the beginning of the River track.", 
    "show-text-colour": "white", 
@@ -46,7 +48,8 @@
    "trigger-end-time": "", 
    "trigger-input": "", 
    "trigger-next": "continue", 
-   "type": "mediashow"
+   "type": "mediashow", 
+   "web-window": "warp"
   }, 
   {
    "audio-speaker": "stereo", 
@@ -59,8 +62,9 @@
    "hint-colour": "white", 
    "hint-font": "Helvetica 30 bold", 
    "hint-text": "", 
+   "hint-x": "200", 
    "hint-y": "100", 
-   "image-window": "centred", 
+   "image-window": "original", 
    "medialist": "audio.json", 
    "mplayer-audio": "hdmi", 
    "mplayer-other-options": "", 
@@ -69,11 +73,12 @@
    "omx-audio": "hdmi", 
    "omx-other-options": "", 
    "omx-volume": "0", 
-   "omx-window": "centred", 
+   "omx-window": "original", 
    "progress": "auto", 
    "repeat": "interval", 
    "repeat-interval": "0", 
    "sequence": "ordered", 
+   "show-canvas": "", 
    "show-ref": "audio", 
    "show-text": "", 
    "show-text-colour": "", 
@@ -87,7 +92,8 @@
    "trigger-end-time": "", 
    "trigger-input": "", 
    "trigger-next": "continue", 
-   "type": "mediashow"
+   "type": "mediashow", 
+   "web-window": "warp"
   }
  ]
 }

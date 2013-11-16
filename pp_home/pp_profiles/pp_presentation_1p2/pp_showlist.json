@@ -18,8 +18,9 @@
    "hint-colour": "", 
    "hint-font": "", 
    "hint-text": "", 
+   "hint-x": "200", 
    "hint-y": "", 
-   "image-window": "centred", 
+   "image-window": "original", 
    "medialist": "media.json", 
    "mplayer-audio": "hdmi", 
    "mplayer-other-options": "", 
@@ -28,11 +29,12 @@
    "omx-audio": "hdmi", 
    "omx-other-options": "", 
    "omx-volume": "0", 
-   "omx-window": "centred", 
+   "omx-window": "original", 
    "progress": "manual", 
    "repeat": "oneshot", 
    "repeat-interval": "", 
    "sequence": "ordered", 
+   "show-canvas": "", 
    "show-ref": "mymediashow", 
    "show-text": "", 
    "show-text-colour": "", 
@@ -41,12 +43,13 @@
    "show-text-y": "0", 
    "title": "Example Presentation", 
    "transition": "cut", 
-   "trigger": "input", 
+   "trigger": "start", 
    "trigger-end": "none", 
    "trigger-end-time": "", 
    "trigger-input": "", 
    "trigger-next": "continue", 
-   "type": "mediashow"
+   "type": "mediashow", 
+   "web-window": "warp"
   }
  ]
 }

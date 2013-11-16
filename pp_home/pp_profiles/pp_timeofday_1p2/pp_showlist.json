@@ -18,8 +18,9 @@
    "hint-colour": "", 
    "hint-font": "", 
    "hint-text": "", 
+   "hint-x": "200", 
    "hint-y": "", 
-   "image-window": "centred", 
+   "image-window": "original", 
    "medialist": "show1.json", 
    "mplayer-audio": "hdmi", 
    "mplayer-other-options": "", 
@@ -28,11 +29,12 @@
    "omx-audio": "hdmi", 
    "omx-other-options": "", 
    "omx-volume": "0", 
-   "omx-window": "centred", 
+   "omx-window": "original", 
    "progress": "auto", 
    "repeat": "interval", 
    "repeat-interval": "0", 
    "sequence": "ordered", 
+   "show-canvas": "", 
    "show-ref": "showa", 
    "show-text": "Show A\n\nA repeating mediashow\nwhich runs in the first and third time periods\n\nIt is cut off after 20 seconds", 
    "show-text-colour": "white", 
@@ -46,7 +48,8 @@
    "trigger-end-time": "+25 +70", 
    "trigger-input": "+5 +50", 
    "trigger-next": "continue", 
-   "type": "mediashow"
+   "type": "mediashow", 
+   "web-window": "warp"
   }, 
   {
    "audio-speaker": "stereo", 
@@ -59,8 +62,9 @@
    "hint-colour": "white", 
    "hint-font": "Helvetica 30 bold", 
    "hint-text": "", 
+   "hint-x": "200", 
    "hint-y": "100", 
-   "image-window": "centred", 
+   "image-window": "original", 
    "medialist": "showb.json", 
    "mplayer-audio": "hdmi", 
    "mplayer-other-options": "", 
@@ -69,11 +73,12 @@
    "omx-audio": "hdmi", 
    "omx-other-options": "", 
    "omx-volume": "0", 
-   "omx-window": "centred", 
+   "omx-window": "original", 
    "progress": "auto", 
    "repeat": "interval", 
    "repeat-interval": "10", 
    "sequence": "ordered", 
+   "show-canvas": "", 
    "show-ref": "showb", 
    "show-text": "", 
    "show-text-colour": "", 
@@ -87,7 +92,8 @@
    "trigger-end-time": "+45", 
    "trigger-input": "+30", 
    "trigger-next": "continue", 
-   "type": "mediashow"
+   "type": "mediashow", 
+   "web-window": "warp"
   }
  ]
 }

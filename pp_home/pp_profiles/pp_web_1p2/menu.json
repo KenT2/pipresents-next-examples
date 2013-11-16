@@ -1,0 +1,44 @@
+{
+ "issue": "1.2", 
+ "tracks": [
+  {
+   "animate-begin": "", 
+   "animate-clear": "no", 
+   "animate-end": "", 
+   "background-colour": "", 
+   "background-image": "+/media/space.jpg", 
+   "browser-commands": "uzbl zoom_out\nwait 10\nloop\nload www.museumoftechnology.org.uk\nwait 10\nload www.ntexpress.org.uk\nwait 10\nuzbl zoom_out", 
+   "display-show-background": "yes", 
+   "display-show-text": "yes", 
+   "duration": "50", 
+   "links": "", 
+   "location": "+/media/hello_world.html", 
+   "plugin": "", 
+   "show-control-begin": "", 
+   "show-control-end": "", 
+   "thumbnail": "", 
+   "title": "50 second Web Track with internal loop", 
+   "track-ref": "", 
+   "track-text": "Shameless advertising of my web sites ;-)", 
+   "track-text-colour": "#331820", 
+   "track-text-font": "{Droid Arabic Naskh} 30 bold", 
+   "track-text-x": "100", 
+   "track-text-y": "100", 
+   "type": "web", 
+   "web-window": "warp 200 200 1500 1000"
+  }, 
+  {
+   "sub-show": "mediashow", 
+   "thumbnail": "", 
+   "title": "Mediashow with a Web Track", 
+   "track-ref": "", 
+   "type": "show"
+  }, 
+  {
+   "location": "+/media/space.jpg", 
+   "title": "Menu Background", 
+   "track-ref": "pp-menu-background", 
+   "type": "menu-background"
+  }
+ ]
+}

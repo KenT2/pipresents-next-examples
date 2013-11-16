@@ -18,8 +18,9 @@
    "hint-colour": "white", 
    "hint-font": "Helvetica 30 bold", 
    "hint-text": "", 
+   "hint-x": "200", 
    "hint-y": "100", 
-   "image-window": "centred", 
+   "image-window": "original", 
    "medialist": "shutdown.json", 
    "mplayer-audio": "hdmi", 
    "mplayer-other-options": "", 
@@ -28,11 +29,12 @@
    "omx-audio": "hdmi", 
    "omx-other-options": "", 
    "omx-volume": "0", 
-   "omx-window": "centred", 
+   "omx-window": "original", 
    "progress": "auto", 
    "repeat": "interval", 
    "repeat-interval": "0", 
    "sequence": "ordered", 
+   "show-canvas": "", 
    "show-ref": "shutdown", 
    "show-text": "", 
    "show-text-colour": "", 
@@ -46,7 +48,8 @@
    "trigger-end-time": "", 
    "trigger-input": "", 
    "trigger-next": "continue", 
-   "type": "mediashow"
+   "type": "mediashow", 
+   "web-window": "warp"
   }
  ]
 }
